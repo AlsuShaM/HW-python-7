@@ -10,14 +10,14 @@
 # Вывод:
 # Парам пам-пам
 
-# string1 = input("Введите стих: ").split()
+string1 = input("Введите стих: ").split()
 
-# list1 = [sum(i in 'аеёиоуыэюя' for i in list2) for list2 in string1]
+list1 = [sum(i in 'аеёиоуыэюя' for i in list2) for list2 in string1]
  
-# if len(set(list1)) == 1:
-#     print("Парам пам-пам")
-# else:
-#     print("Пам парам")
+if len(set(list1)) == 1:
+    print("Парам пам-пам")
+else:
+    print("Пам парам")
        
 # Задача 36: Напишите функцию print_operation_table(operation, num_rows=6, num_columns=6), которая принимает 
 # в качестве аргумента функцию, вычисляющую элемент по номеру строки и столбца. Аргументы num_rows и 
